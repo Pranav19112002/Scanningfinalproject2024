@@ -1,0 +1,172 @@
+/* Userreg.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .userreg-container {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+  }
+  
+  .userreg-image-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userreg-text-container {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userreg-title {
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .userreg-description {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: normal;
+  }
+  
+  .userreg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .userreg-form-container {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .userreg-app-title {
+    width: 100%;
+    max-width: 500px;
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: #060606;
+    font-weight: bold;
+  }
+  
+  .userreg-form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userreg-form-section {
+    margin-bottom: 2rem;
+  }
+  
+  .userreg-form-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .userreg-form-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .userreg-input {
+    width: 100%;
+    color: #000000;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+  }
+  
+  .userreg-checkbox-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .userreg-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userreg-checkbox-input {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .userreg-checkbox-label {
+    font-size: 0.875rem;
+  }
+  
+  .userreg-forgot-password {
+    font-size: 0.875rem;
+    font-weight: medium;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .userreg-button {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+  }
+  
+  .userreg-register-button {
+    background-color: #060606;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .userreg-signin-button {
+    background-color: #ffffff;
+    color: #060606;
+    border: 2px solid #000000;
+  }
+  
+  .userreg-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .userreg-footer-text {
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #060606;
+  }
+  
+  .userreg-footer-link {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
